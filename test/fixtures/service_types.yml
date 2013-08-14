@@ -5,13 +5,13 @@ one:
   service_name: MyString
   service_tag: MyString
   parent_id: MyString
-  priority_level: 
-  is_exist_form: 
+  priority_level: 1
+  is_exist_form: false
 
 two:
   service_id: MyString
   service_name: MyString
   service_tag: MyString
   parent_id: MyString
-  priority_level: 
-  is_exist_form: 
+  priority_level: 1
+  is_exist_form: false

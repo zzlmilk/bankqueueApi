@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130807061636) do
+ActiveRecord::Schema.define(:version => 20130814095824) do
 
   create_table "bank_types", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -42,6 +42,17 @@ ActiveRecord::Schema.define(:version => 20130807061636) do
   create_table "com_provinces", :force => true do |t|
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "service_types", :force => true do |t|
+    t.string   "service_id"
+    t.string   "service_name"
+    t.string   "service_tag"
+    t.string   "parent_id"
+    t.integer  "priority_level"
+    t.boolean  "is_exist_form"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "users", :force => true do |t|
