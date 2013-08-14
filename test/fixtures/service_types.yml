@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  service_id: MyString
+  service_name: MyString
+  service_tag: MyString
+  parent_id: MyString
+  priority_level: 
+  is_exist_form: 
+
+two:
+  service_id: MyString
+  service_name: MyString
+  service_tag: MyString
+  parent_id: MyString
+  priority_level: 
+  is_exist_form: 
