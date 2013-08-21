@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number_id: MyString
+  number_order: 1
+  number_status: 1
+  number_date: 2013-08-19 16:15:50
+  now_number: 1
+  waited_count: MyString
+  service_id: MyString
+  service_name: MyString
+  service_parent_id: MyString
+  service_tag: MyString
+  bank_id: MyString
+  bank_name: MyString
+  bank_type_name: MyString
+  is_exist_form: false
+  number_info_service_id: MyString
+  form_id: MyString
+
+two:
+  number_id: MyString
+  number_order: 1
+  number_status: 1
+  number_date: 2013-08-19 16:15:50
+  now_number: 1
+  waited_count: MyString
+  service_id: MyString
+  service_name: MyString
+  service_parent_id: MyString
+  service_tag: MyString
+  bank_id: MyString
+  bank_name: MyString
+  bank_type_name: MyString
+  is_exist_form: false
+  number_info_service_id: MyString
+  form_id: MyString

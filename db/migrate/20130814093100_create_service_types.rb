@@ -5,8 +5,8 @@ class CreateServiceTypes < ActiveRecord::Migration
       t.string :service_name
       t.string :service_tag
       t.string :parent_id
-      t.int :priority_level
-      t.bool :is_exist_form
+      t.integer :priority_level
+      t.boolean :is_exist_form
 
       t.timestamps
     end
