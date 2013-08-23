@@ -17,8 +17,14 @@ class NumberController < ApplicationController
 
 	  	elsif 
 	  		num= NumberInfo.instanceNumber(ser_id,ba_id)
-			render json:num
-	  		num.save
+	  		if num != nil #number 对象不为空保存
+	  			num.save	  			
+	  		end	
+
+	  		render json:num
+
+	  	else
+	  		#异常
 	  	end
 
 	end
