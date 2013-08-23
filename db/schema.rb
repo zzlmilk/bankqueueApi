@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130821025204) do
+ActiveRecord::Schema.define(:version => 20130823022518) do
 
   create_table "bank_type", :force => true do |t|
     t.string "bank_type", :limit => 100
@@ -47,6 +47,13 @@ ActiveRecord::Schema.define(:version => 20130821025204) do
     t.string  "pro_name", :limit => 15, :default => "", :null => false
     t.integer "grade",    :limit => 1,  :default => 3,  :null => false
     t.string  "pinyin",                                 :null => false
+  end
+
+  create_table "error_infos", :force => true do |t|
+    t.string   "error_status"
+    t.string   "error_content"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "number_infos", :force => true do |t|

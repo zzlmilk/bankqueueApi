@@ -4,6 +4,11 @@ class NumberInfo < ActiveRecord::Base
   primary_key: "service_id",
   foreign_key: "service_id"
 
+#   validates :bank_id, format: { with: /\w/,
+#     message: "bank_id can not be blank" }, presence: true
+#   validates :service_id, format: { with: /\w/,
+#     message: "service_id can not be blank" }, presence: true
+
 
   def self.instanceNumber(sev_id,bank_id)
   		num = NumberInfo.new	
