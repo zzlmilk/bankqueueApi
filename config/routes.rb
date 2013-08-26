@@ -1,9 +1,16 @@
 BankQueue::Application.routes.draw do
+
+  get "filled_form/get_filled_form"
+
+  get "service/get_list"
+
+  get "service/get_child_list"
+
   get "welcome/index"
   get "number/createNumber"
   get "number/refreshNumbers"
 
-  # The priority is based upon order of creation:
+  post "filled_form/save_filled_data"  # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

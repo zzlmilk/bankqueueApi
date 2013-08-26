@@ -56,6 +56,14 @@ ActiveRecord::Schema.define(:version => 20130823022518) do
     t.datetime "updated_at",    :null => false
   end
 
+  create_table "filled_form_infos", :force => true do |t|
+    t.string   "form_id"
+    t.string   "filled_content"
+    t.string   "filled_date"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
+
   create_table "number_infos", :force => true do |t|
     t.string   "number_id"
     t.integer  "number_order"
